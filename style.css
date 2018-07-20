@@ -1,0 +1,163 @@
+@font-face {
+	font-family: Inconsolata;
+	src: url("Inconsolata.otf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: rgba(0, 0, 0, 0.91) none repeat scroll 0% 0%;
+	font-family: Inconsolata;
+	color: white;
+}
+
+.vanilla {
+	display: none;
+}
+
+.folder {
+	color: #3939B0;
+	font-weight: bold;
+}
+
+.vim {
+	height: 100%;
+	width: 100%;
+	background: #2D2D2D none repeat scroll 0% 0%;
+	display: none;
+}
+
+.vim .menu {
+	background: white;
+	color: black;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.vim .status {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #1D1C1C none repeat scroll 0% 0%;
+}
+
+.vim .status .st {
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.vim .status .normal {
+	background: #3DB73D none repeat scroll 0% 0%;
+	color: #0B510B;
+}
+
+.vim .status .insert {
+	background: white;
+	color: #0F70ED;
+}
+
+.vim .status .fd {
+	background: rgba(255, 255, 255, 0.13) none repeat scroll 0% 0%;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.vim .status .infos {
+	position: fixed;
+	right: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: rgba(255, 255, 255, 0.32);
+}
+
+.vim .lines {
+	position: fixed;
+	top: 20px;
+	color: rgba(255, 255, 255, 0.35);
+	text-align: right;
+}
+
+.vim .file {
+	top: 20px;
+	position: fixed;
+	left: 20px;
+	width: 90%;
+	height: 90%;
+}
+
+.preview {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 30%;
+	height: 100%;
+	background: white;
+	color: black;
+}
+
+.preview a:hover {
+	color: #DC3522;
+}
+
+
+.console, .vim, .tmp {
+	line-height: 1em;
+}
+
+#skip {
+	position: fixed;
+	color: white;
+	top: 20px;
+	right: 20px;
+	font-size: 2em;
+
+}
+
+.little {
+    font-size: large !important;
+    margin-right: 10px !important;
+}
+
+.small-title {
+    font-weight: 100;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
