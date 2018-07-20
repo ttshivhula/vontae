@@ -27,7 +27,7 @@ $(function () {
 			result: "[1]  + 9765 suspended  vim main.c\n(pwd now: ~/server)"
 		},
 		{
-			cmd: "gcc main.c -O3 -o server"
+			cmd: "gcc main.c -o server"
 		},
 		{
 			cmd: "ls",
