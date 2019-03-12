@@ -4,7 +4,7 @@ $(function () {
 	var		cmds = [
 		{
 			cmd: "ls",
-			result: "<span class='folder'>Movies</span>"
+			result: "<span class='folder'>Porn Videos</span>"
 		},
 		{
 			cmd: "./server",
