@@ -255,8 +255,8 @@ $(function () {
 			startDelay: 1000,
 			callback: function() {
 				$(".preview h1").css({
-					"margin-top": "15%",
-					"margin-bottom": "3%",
+					"margin-top": "1%",
+					"margin-bottom": "1%",
 					"font-size": "3.5em"
 				});
 				$(".preview a").css({
@@ -269,6 +269,11 @@ $(function () {
 					"font-size": "2em",
 					"margin-right": "1%",
 					"margin-left": "1%"
+				});
+				$("img").css({
+					"margin-top": "5%",
+					"margin-bottom": "1%",
+					"border-radius": "50%"
 				});
 				setTimeout(done, 2000);
 			}
@@ -306,8 +311,8 @@ $(function () {
 	function	skip() {
 		$(".preview").html(o_html);
 		$(".preview h1").css({
-			"margin-top": "15%",
-			"margin-bottom": "3%",
+			"margin-top": "1%",
+			"margin-bottom": "1%",
 			"font-size": "3.5em"
 		});
 		$(".preview a").css({
@@ -327,6 +332,11 @@ $(function () {
 				"color": "rgba(222, 209, 169, 1)",
 				"font-family": "Open Sans",
 				"font-size": "1.3em"
+		});
+		$("img").css({
+			"margin-top": "5%",
+			"margin-bottom": "1%",
+			"border-radius": "50%"
 		});
 		$("#skip").hide();
 		$(".preview").show();
@@ -364,6 +374,6 @@ var file = '/* This is boring but let me code the server, why not  ? */\n/* AUTH
 
 var css1 = ["/* Damn I hate CSS */\n\n\nhtml {\n	text-align: center;\n	background: #1E1E20;\n	color: rgba(222, 209, 169, 1);\n	font-family: 'Open Sans', sans-serif;\n	font-size: 1.3em;\n}\n"];
 
-var css2 = ["/* Not so bad. Let's make a few changes. */\n\nh1 {\n	margin-top: 2em;\n	margin-bottom: 3%;\n	font-size: 3.5em;\n}\n\na {\n	text-decoration: none;\n	color: #374140;\n	transition-property: all;\n	transition-duration: 0.3s;\n}\n\na:hover {\n	color: #DC3522;\n}\n\na i {\n	font-size: 2em;\n	margin-right: 1%;\n	margin-left: 1%;\n}\nimg {\n	margin-top: 5%;\n	border-radius: 50% !important;\n}"];
+var css2 = ["/* Not so bad. Let's make a few changes. */\n\nh1 {\n	margin-top: 1%;\n	margin-bottom: 1%;\n	font-size: 3.5em;\n}\n\na {\n	text-decoration: none;\n	color: #374140;\n	transition-property: all;\n	transition-duration: 0.3s;\n}\n\na:hover {\n	color: #DC3522;\n}\n\na i {\n	font-size: 2em;\n	margin-right: 1%;\n	margin-left: 1%;\n}\nimg {\n	margin-top: 5%;\n	border-radius: 50% !important;\n}"];
 
 var css3 = ["\n/* Well, we're done. Till' next refresh, see you. */"];
