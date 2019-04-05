@@ -273,7 +273,8 @@ $(function () {
 				$("img").css({
 					"margin-top": "5%",
 					"margin-bottom": "1%",
-					"border-radius": "50%"
+					"border-radius": "50%",
+					"width": "30vh",
 				});
 				setTimeout(done, 2000);
 			}
@@ -336,7 +337,8 @@ $(function () {
 		$("img").css({
 			"margin-top": "5%",
 			"margin-bottom": "1%",
-			"border-radius": "50%"
+			"border-radius": "50%",
+			"width": "30vh",
 		});
 		$("#skip").hide();
 		$(".preview").show();
@@ -374,6 +376,6 @@ var file = '/* This is boring but let me code the server, why not  ? */\n/* AUTH
 
 var css1 = ["/* Damn I hate CSS */\n\n\nhtml {\n	text-align: center;\n	background: #1E1E20;\n	color: rgba(222, 209, 169, 1);\n	font-family: 'Open Sans', sans-serif;\n	font-size: 1.3em;\n}\n"];
 
-var css2 = ["/* Not so bad. Let's make a few changes. */\n\nh1 {\n	margin-top: 1%;\n	margin-bottom: 1%;\n	font-size: 3.5em;\n}\n\na {\n	text-decoration: none;\n	color: #374140;\n	transition-property: all;\n	transition-duration: 0.3s;\n}\n\na:hover {\n	color: #DC3522;\n}\n\na i {\n	font-size: 2em;\n	margin-right: 1%;\n	margin-left: 1%;\n}\nimg {\n	margin-top: 5%;\n	border-radius: 50% !important;\n}"];
+var css2 = ["/* Not so bad. Let's make a few changes. */\n\nh1 {\n	margin-top: 1%;\n	margin-bottom: 1%;\n	font-size: 3.5em;\n}\n\na {\n	text-decoration: none;\n	color: #374140;\n	transition-property: all;\n	transition-duration: 0.3s;\n}\n\na:hover {\n	color: #DC3522;\n}\n\na i {\n	font-size: 2em;\n	margin-right: 1%;\n	margin-left: 1%;\n}\nimg {\n	margin-top: 5%;\n	border-radius: 50%;\n   width: 30vh;\n}"];
 
 var css3 = ["\n/* Well, we're done. Till' next refresh, see you. */"];
