@@ -236,7 +236,7 @@ $(function () {
 				$(".preview").css({
 					"text-align": "center",
 					"background": "#0187F3",
-					"color": "rgba(222, 209, 169, 1)",
+					"color": "rgba(255, 255, 255, 2)",
 					"font-family": "Open Sans",
 					"font-size": "1.3em"
 				});
@@ -330,7 +330,7 @@ $(function () {
 		$(".preview").css({
 				"text-align": "center",
 				"background": "#0187F3",
-				"color": "rgba(222, 209, 169, 1)",
+				"color": "rgba(255, 255, 255, 2)",
 				"font-family": "Open Sans",
 				"font-size": "1.3em"
 		});
