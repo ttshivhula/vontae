@@ -1,83 +1,78 @@
 /*
 
-Style with support for rainbow parens
+Darcula color scheme from the JetBrains family of IDEs
 
 */
+
 
 .hljs {
   display: block;
   overflow-x: auto;
-  color: #d1d9e1;
+  padding: 0.5em;
+  background: #2b2b2b;
 }
 
-
-.hljs-comment,
-.hljs-quote {
-  color: #969896;
-  font-style: italic;
+.hljs {
+  color: #bababa;
 }
 
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-literal,
-.hljs-type,
-.hljs-addition {
-  color: #cc99cc;
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
 }
 
-.hljs-number,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-  color: #f99157;
-}
-
-.hljs-string,
-.hljs-doctag,
-.hljs-regexp {
-  color: #8abeb7;
-}
-
-.hljs-title,
-.hljs-name,
-.hljs-section,
-.hljs-built_in {
-  color: #b5bd68;
-}
-
-.hljs-variable,
-.hljs-template-variable,
-.hljs-selector-id,
-.hljs-class .hljs-title {
-   color: #ffcc66;
-}
-
-.hljs-section,
-.hljs-name,
-.hljs-strong {
-  font-weight: bold;
-}
-
-.hljs-symbol,
 .hljs-bullet,
-.hljs-subst,
-.hljs-meta,
-.hljs-link {
-  color: #f99157;
+.hljs-quote,
+.hljs-link,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal {
+  color: #6896ba;
 }
 
-.hljs-deletion {
-  color: #dc322f;
-}
-
-.hljs-formula {
-  background: #eee8d5;
-}
-
-.hljs-attr,
-.hljs-attribute {
-  color: #81a2be;
+.hljs-code,
+.hljs-selector-class {
+  color: #a6e22e;
 }
 
 .hljs-emphasis {
   font-style: italic;
 }
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-attribute,
+.hljs-name,
+.hljs-variable {
+  color: #cb7832;
+}
+
+.hljs-params {
+  color: #b9b9b9;
+}
+
+.hljs-string {
+  color: #6a8759;
+}
+
+.hljs-subst,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-symbol,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
+  color: #e0c46c;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #7f7f7f;
+}
+
