@@ -15,7 +15,8 @@ You can provide command line arguments like:- $./a.aout -p [port] -r [path]
 #include<fcntl.h>
 
 #define CONNMAX 1000
-#define BYTES 1024
+#define BYTES 55535
+//#define BYTES 1024
 
 char *ROOT;
 int listenfd, clients[CONNMAX];
