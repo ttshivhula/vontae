@@ -14,7 +14,7 @@ function gotDevices(deviceInfos) {
             select.removeChild(select.firstChild);
         }
     });
-    for (let i = deviceInfos.length - 1; i  >= 0; i++) {
+    for (let i = deviceInfos.length - 1; i  >= 0; i--) {
         const deviceInfo = deviceInfos[i];
         const option = document.createElement('option');
         option.value = deviceInfo.deviceId;
