@@ -71,7 +71,7 @@ body {
 }
 
 .vim .status .fd {
-	background: rgba(255, 255, 255, 0.13) none repeat scroll 0% 0%;
+	background: #98971a none repeat scroll 0% 0%;
 	color: white;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -82,13 +82,13 @@ body {
 	right: 0;
 	padding-left: 5px;
 	padding-right: 5px;
-	color: rgba(255, 255, 255, 0.32);
+	color: #98971a;
 }
 
 .vim .lines {
 	position: fixed;
 	top: 20px;
-	color: rgba(255, 255, 255, 0.35);
+	color: #98971a;
 	text-align: right;
 }
 

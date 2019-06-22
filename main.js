@@ -238,8 +238,8 @@ $(function () {
 			callback: function() {
 				$(".preview").css({
 					"text-align": "center",
-					"background": "#0187F3",
-					"color": "rgba(255, 255, 255, 2)",
+					"background": "#101010",
+					"color": "#98971a",
 					"font-family": "Open Sans",
 					"font-size": "1.3em"
 				});
@@ -332,8 +332,8 @@ $(function () {
 		});
 		$(".preview").css({
 				"text-align": "center",
-				"background": "#0187F3",
-				"color": "rgba(255, 255, 255, 2)",
+				"background": "#101010",
+				"color": "#98971a",
 				"font-family": "Open Sans",
 				"font-size": "1.3em"
 		});
@@ -377,7 +377,7 @@ var o_html = '<img src="vontae.jpg" width="40vh"/><h1><span class="small-title">
 
 var file = '/* Basic C Linux (UNIX) Web Server */\n\n#include <netinet/in.h>\n#include <sys/socket.h>\n#include <sys/stat.h>\n#include <sys/sendfile.h>\n#include <sys/types.h>\n#include <unistd.h>\n#include <stdlib.h>\n#include <fcntl.h>\n#include <stdio.h>\n#include <string.h>\n\nint		main(void) {\n	int				c_sock, n_sock, bufsize = 1024, fd;\n	socklen_t			addrlen;\n	char				*buffer = malloc(bufsize * sizeof(char)), str[65];\n	struct sockaddr_in		addr;\n	struct stat			stat_buf;\n\n	if ((c_sock = socket(AF_INET, SOCK_STREAM, 0)) == -1 || !buffer) { return 1; }\n	addr.sin_family = AF_INET; addr.sin_addr.s_addr = INADDR_ANY; addr.sin_port = htons(80);\n	if (bind(c_sock, (struct sockaddr *)&addr, sizeof(addr)) != 0) { return 1; }\n	while (1) {\n		if (listen(c_sock, 10) < 0) { return 1; }\n		fd = open("index.html", O_RDONLY);\n		if ((n_sock = accept(c_sock, (struct sockaddr *)&addr, &addrlen)) < 0 || fd == -1) { return 1; }\n		recv(n_sock, buffer, bufsize, 0);\n		fstat(fd, &stat_buf);\n		sprintf(str, "HTTP/1.1 200 OK\\nContent-length: %d\\nContent-type: text/html\\n\\n", stat_buf.st_size);\n		write(n_sock, str, strlen(str));\n		if (sendfile(n_sock, fd, NULL, stat_buf.st_size) == -1) { return 1; }\n		close(n_sock);\n		close(fd);\n	}\n	close(c_sock);\n	free(buffer);\n	return 0;\n}';
 
-var css1 = ["/* Let's do some design work */\n\n\nhtml {\n	text-align: center;\n	background: #0187F3;\n	color: rgba(255, 255, 255, 2);\n	font-family: 'Open Sans', sans-serif;\n	font-size: 1.3em;\n}\n"];
+var css1 = ["/* Let's do some design work */\n\n\nhtml {\n	text-align: center;\n	background: #101010;\n	color: #98971a;\n	font-family: 'Open Sans', sans-serif;\n	font-size: 1.3em;\n}\n"];
 
 var css2 = ["/* Not so bad. Let's make a few changes. */\n\nh1 {\n	margin-top: 1%;\n	margin-bottom: 1%;\n	font-size: 3.5em;\n}\n\na {\n	text-decoration: none;\n	color: #ffffff;\n	transition-property: all;\n	transition-duration: 0.3s;\n}\n\na:hover {\n	color: #DC3522;\n}\n\na i {\n	font-size: 2em;\n	margin-right: 1%;\n	margin-left: 1%;\n}\nimg {\n	margin-top: 5%;\n	border-radius: 50%;\n	width: 30vh;\n}"];
 
