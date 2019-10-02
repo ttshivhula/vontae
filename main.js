@@ -4,7 +4,7 @@ $(function () {
 	var		cmds = [
 		{
 			cmd: "ls",
-			result: "<span class='folder'>Videos</span><span class='file'> vontae.jpg</span>"
+			result: "<span class='folder'>Vontae-Projects</span><span class='file'> vontae.jpg</span>"
 		},
 		{
 			cmd: "./server",
