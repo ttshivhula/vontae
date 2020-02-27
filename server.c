@@ -2,6 +2,8 @@
 You can provide command line arguments like:- $./a.aout -p [port] -r [path]
 */
 
+//servername
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
