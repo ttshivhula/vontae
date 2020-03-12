@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vontae.co.za
+Token: c2345c68e92583fc0611718b1f92e06943e08e1d410fd27bda533162fff1de49
