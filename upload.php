@@ -19,8 +19,7 @@ if (isset($_GET['upload'])) {
 
   copy($_FILES['mp3']['tmp_name'], $name) or
     die('Failed to upload MP3 file...');
-  die('done');
-  exit();
+  echo "File has been uploaded<br/>";
 } else {
   echo '<form method="post" action="upload.php?upload" enctype="multipart/form-data"><input type="file" name="mp3" type="submit" /> <input type="submit" /></form>';
 }

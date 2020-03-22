@@ -2,7 +2,7 @@
 if ($handle = opendir('padio')) {
   while (false !== ($entry = readdir($handle))) {
     if ($entry != "." && $entry != ".." && $entry != ".create") {
-      echo "https://vontae.co.za/padio/$entry\n";
+      echo "<input type='text' value='https://vontae.co.za/padio/$entry'><br/>";
     }
   }
 
