@@ -1,5 +1,6 @@
 <?php
 
+
 $all_files = new SplStack();
 
 if ($handle = opendir('padio')) {

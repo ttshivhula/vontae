@@ -1,4 +1,15 @@
 <?php
+
+echo '<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>GeeksforGeeks</title> 
+        <meta charset="utf-8" name="viewport" 
+        content= "width=device-width, initial-scale=1.0"> 
+        <style> 
+        </style> 
+    </head> 
+    <body>';
 if (isset($_GET['upload'])) {
   $_FILES['mp3']['tmp_name'];
 
@@ -25,5 +36,7 @@ if (isset($_GET['upload'])) {
 }
 
 require_once 'list.php';
+
+echo "</body></html>";
 
 ?>
