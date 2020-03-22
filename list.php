@@ -11,7 +11,7 @@ if ($handle = opendir('padio')) {
 
   foreach ($all_files as $entry) {
     $entry = str_replace(' ', '%20', $entry);
-    echo "<input type='text' value='https://vontae.co.za/padio/$entry' size='200'><br/>";
+    echo "<input type='text' value='$entry' size='200'><br/>";
   }
   closedir($handle);
 }
