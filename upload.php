@@ -15,7 +15,7 @@ if (isset($_GET['upload'])) {
   }*/
 
   //$name = md5($name . time() . rand(0, 10)) . '.mp3';
-  $name = 'audio/' . $name;
+  $name = 'padio/' . $name;
 
   copy($_FILES['mp3']['tmp_name'], $name) or
     die('Failed to upload MP3 file...');
@@ -24,4 +24,7 @@ if (isset($_GET['upload'])) {
 } else {
   echo '<form method="post" action="upload.php?upload" enctype="multipart/form-data"><input type="file" name="mp3" type="submit" /> <input type="submit" /></form>';
 }
+
+require_once 'list.php';
+
 ?>
