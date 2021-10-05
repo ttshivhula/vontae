@@ -8,7 +8,7 @@ $(function () {
     {
       cmd: "ls",
       result:
-        "<span class='folder'>Vontae-Projects</span><span class='file'> vontae.jpg</span>",
+        "<span class='folder'>tshilidzi-Projects</span><span class='file'> tshilidzi.jpg</span>",
     },
     {
       cmd: "./server",
@@ -26,7 +26,7 @@ $(function () {
       result: "<span class='folder'>server</span>",
     },
     {
-      cmd: "cp ../vontae.jpg .",
+      cmd: "cp ../tshilidzi.jpg .",
     },
     {
       cmd: "vim main.c",
@@ -39,7 +39,7 @@ $(function () {
     {
       cmd: "ls",
       result:
-        "main.c vontae.jpg <span style='color: rgb(98, 227, 98)'>server</span>",
+        "main.c tshilidzi.jpg <span style='color: rgb(98, 227, 98)'>server</span>",
     },
     {
       cmd: "touch index.html",
@@ -256,8 +256,8 @@ $(function () {
       callback: function () {
         $(".preview").css({
           "text-align": "center",
-          background: "#101010",
-          color: "#98971a",
+          background: "#4C566A",
+          color: "#A3BE8C",
           "font-family": "Open Sans",
           "font-size": "1.3em",
         });
@@ -351,8 +351,8 @@ $(function () {
     });
     $(".preview").css({
       "text-align": "center",
-      background: "#101010",
-      color: "#98971a",
+      background: "#4C566A",
+      color: "#A3BE8C",
       "font-family": "Open Sans",
       "font-size": "1.3em",
     });
@@ -387,7 +387,7 @@ $(function () {
 var html = [
   "Phew, that's done.^500\nNow let's code the site.^1000",
   "Machine,^500\n\nPls make website,^500\n\nall responsive like,^500\nw/ BIG pictures ooo^500,\nuse my fav fonts^1000,\nalso fancy menus with whoosh on,^500\nload fast pls^200\n\nThanks,\nHuman\n\n^1500PS no bugs :)^500\n^500\n^500\n^1500.^1500.^1500.^2000\n\nDoesn't work?\n\n^1000Damnit.",
-  '<!DOCTYPE HTML>\n<html lang="en">\n	<head>\n		<!-- CSS Declaration -->\n			<link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">\n			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">\n			<link href="style.css" rel="stylesheet">\n\n		<!-- JS import -->\n			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>\n			<script src="js/script.js"></script>\n\n		<!-- META Declaration -->\n			<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">\n			<meta name="description" content="Another useless website.">\n			<meta name="author" content="Tshilidzi Tshivhula">\n			<meta name="keywords" content="Tshilidzi,Tshivhula,Systems Engineer">\n			<meta charset="utf-8">\n			<title>Vontae - Tshilidzi Tshivhula</title>\n	</head>\n	<body>\n		<img src="vontae.jpg"/>\n		<div id="contact">\n			<h1>Tshilidzi</h1>\n			<a href="http://blog.vontae.co.za"><i class="fas fa-blog"></i></a>\n			<a href="https://git.tshilidzi.dev"><i class="fab fa-git"></i></a>\n			<a href="http://twitter.com/pboyfunclub"><i class="fab fa-twitter"></i></a>\n			<a href="vontae-cv.pdf"><i class="fas fa-file-pdf"></i></a><br /><br />\n			<a class="mail" href="mailto:hello@tshilidzi.dev">hello@tshilidzi.dev</a>\n			<a class="mail" href="tel:+27606400470"><i class="fa fa-phone little"></i>  +2760 640 0470</a>\n		</div>\n	</body>\n</html>\n<!-- ^^^^^ Website of the year. ^^^^^^ ^2000-->\n<!-- Wait, you can\'t see it ! ^500-->\n<!-- Give me a minute ... -->',
+  '<!DOCTYPE HTML>\n<html lang="en">\n	<head>\n		<!-- CSS Declaration -->\n			<link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">\n			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">\n			<link href="style.css" rel="stylesheet">\n\n		<!-- JS import -->\n			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>\n			<script src="js/script.js"></script>\n\n		<!-- META Declaration -->\n			<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">\n			<meta name="description" content="Another useless website.">\n			<meta name="author" content="Tshilidzi Tshivhula">\n			<meta name="keywords" content="Tshilidzi,Tshivhula,Systems Engineer">\n			<meta charset="utf-8">\n			<title>tshilidzi.dev</title>\n	</head>\n	<body>\n		<img src="tshilidzi.jpg"/>\n		<div id="contact">\n			<h1>Tshilidzi</h1>\n			<a href="https://git.tshilidzi.dev"><i class="fab fa-git"></i></a>\n			<a href="tshilidzi-cv.pdf"><i class="fas fa-file-pdf"></i></a><br /><br />\n			<a class="mail" href="mailto:hello@tshilidzi.dev">hello@tshilidzi.dev</a>\n			<a class="mail" href="tel:+27606400470"><i class="fa fa-phone little"></i>  +2760 640 0470</a>\n		</div>\n	</body>\n</html>\n<!-- ^^^^^ Website of the year. ^^^^^^ ^2000-->\n<!-- Wait, you can\'t see it ! ^500-->\n<!-- Give me a minute ... -->',
 ];
 
 var html2 = [
@@ -395,13 +395,13 @@ var html2 = [
 ];
 
 var o_html =
-  '<img src="vontae.jpg" width="40vh"/><h1><span class="small-title">Tshilidzi</span> Tshivhula</h1><a href="https://blog.vontae.co.za"><i class="fas fa-blog"></i></a><a href="https://git.tshilidzi.dev"><i class="fab fa-git"></i></a><a href="http://twitter.com/pboyfunclub"><i class="fab fa-twitter"></i></a><a href="vontae-cv.pdf"><i class="fas fa-file-pdf"></i></a><br /><br /><a class="mail" href="mailto:hello@tshilidzi.dev"><i class="fa fa-envelope little"></i>hello@tshilidzi.dev</a><br /><a class="mail" href="tel:+27606400470"><i class="fa fa-phone little"></i> +2760 640 0470</a><br />';
+  '<img src="tshilidzi.jpg" width="40vh"/><h1><span class="small-title">Tshilidzi</span> Tshivhula</h1><a href="https://git.tshilidzi.dev"><i class="fab fa-git"></i></a><a href="tshilidzi-cv.pdf"><i class="fas fa-file-pdf"></i></a><br /><br /><a class="mail" href="mailto:hello@tshilidzi.dev"><i class="fa fa-envelope little"></i>hello@tshilidzi.dev</a><br /><a class="mail" href="tel:+27606400470"><i class="fa fa-phone little"></i> +2760 640 0470</a><br />';
 
 var file =
   '/* Basic C Linux (UNIX) Web Server */\n\n#include <netinet/in.h>\n#include <sys/socket.h>\n#include <sys/stat.h>\n#include <sys/sendfile.h>\n#include <sys/types.h>\n#include <unistd.h>\n#include <stdlib.h>\n#include <fcntl.h>\n#include <stdio.h>\n#include <string.h>\n\nint		main(void) {\n	int				c_sock, n_sock, bufsize = 1024, fd;\n	socklen_t			addrlen;\n	char				*buffer = malloc(bufsize * sizeof(char)), str[65];\n	struct sockaddr_in		addr;\n	struct stat			stat_buf;\n\n	if ((c_sock = socket(AF_INET, SOCK_STREAM, 0)) == -1 || !buffer) { return 1; }\n	addr.sin_family = AF_INET; addr.sin_addr.s_addr = INADDR_ANY; addr.sin_port = htons(80);\n	if (bind(c_sock, (struct sockaddr *)&addr, sizeof(addr)) != 0) { return 1; }\n	while (1) {\n		if (listen(c_sock, 10) < 0) { return 1; }\n		fd = open("index.html", O_RDONLY);\n		if ((n_sock = accept(c_sock, (struct sockaddr *)&addr, &addrlen)) < 0 || fd == -1) { return 1; }\n		recv(n_sock, buffer, bufsize, 0);\n		fstat(fd, &stat_buf);\n		sprintf(str, "HTTP/1.1 200 OK\\nContent-length: %d\\nContent-type: text/html\\n\\n", stat_buf.st_size);\n		write(n_sock, str, strlen(str));\n		if (sendfile(n_sock, fd, NULL, stat_buf.st_size) == -1) { return 1; }\n		close(n_sock);\n		close(fd);\n	}\n	close(c_sock);\n	free(buffer);\n	return 0;\n}';
 
 var css1 = [
-  "/* Let's do some design work */\n\n\nhtml {\n	text-align: center;\n	background: #101010;\n	color: #98971a;\n	font-family: 'Open Sans', sans-serif;\n	font-size: 1.3em;\n}\n",
+  "/* Let's do some design work */\n\n\nhtml {\n	text-align: center;\n	background: #4C566A;\n	color: #A3BE8C;\n	font-family: 'Open Sans', sans-serif;\n	font-size: 1.3em;\n}\n",
 ];
 
 var css2 = [
